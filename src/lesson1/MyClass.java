@@ -12,7 +12,14 @@ public class MyClass {
 		
 		System.out.println("The entered value is");
 		System.out.print(user_input_number);
-
+		
+		Scanner scan1 = new Scanner (System.in);
+		System.out.println("Enter some decimal number");
+		double user_input_number_double = scan.nextDouble();
+		
+		System.out.println("The entered value is");
+		System.out.print(user_input_number_double);
+ 
 	}
 
 }
