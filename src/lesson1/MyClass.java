@@ -15,10 +15,17 @@ public class MyClass {
 		
 		Scanner scan1 = new Scanner (System.in);
 		System.out.println("Enter some decimal number");
-		double user_input_number_double = scan.nextDouble();
+		double user_input_number_double = scan1.nextDouble();
 		
 		System.out.println("The entered value is");
 		System.out.print(user_input_number_double);
+		
+		Scanner scan2 = new Scanner (System.in);
+		System.out.println("Enter some text");
+		String user_input_string = scan2.nextLine();
+		
+		System.out.println("The entered value is");
+		System.out.print(user_input_string);
  
 	}
 
