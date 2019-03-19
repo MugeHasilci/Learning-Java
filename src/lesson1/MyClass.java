@@ -39,6 +39,9 @@ public class MyClass {
 		if (x== 10) {
 			System.out.println("Yes x == 10");
 		}
+		else {
+			System.out.println("no x != 10");
+		}
 	}
 
 }
