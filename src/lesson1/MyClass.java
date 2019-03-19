@@ -29,7 +29,7 @@ public class MyClass {
 		*/
 		
 		int x = 11;
-		x++;
+		System.out.println(++x);
 		System.out.println(x);
 	}
 
