@@ -28,10 +28,17 @@ public class MyClass {
 		System.out.print(user_input_string);
 		*/
 		
-		int x = 11;
+		/* int x = 11;
 		x += 5;
 		System.out.println(++x);
 		System.out.println(x);
+		*/
+		
+		int x = 10;
+		
+		if (x== 10) {
+			System.out.println("Yes x == 10");
+		}
 	}
 
 }
