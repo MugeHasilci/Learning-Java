@@ -36,7 +36,7 @@ public class MyClass {
 		
 		int x = 10;
 		
-		if (x== 10) {
+		if (x != 20) {
 			System.out.println("Yes x == 10");
 		}
 		else {
