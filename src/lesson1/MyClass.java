@@ -29,6 +29,7 @@ public class MyClass {
 		*/
 		
 		int x = 11;
+		x += 5;
 		System.out.println(++x);
 		System.out.println(x);
 	}
