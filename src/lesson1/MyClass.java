@@ -41,7 +41,7 @@ public class MyClass {
 		}	
 		else {
 			System.out.println("no x != 10");
-		}*/
+		}
 		
 		int subject1 = 35;
 		int subject2 = 45;
@@ -56,6 +56,25 @@ public class MyClass {
 			System.out.print("The condition is true");
 		} else {
 			System.out.print("The condition is wrong");
+		}*/
+		
+		int score = 90;
+		switch(score)
+		{
+		case 90 :
+			System.out.print("Very good");
+			break;
+			
+		case 60 :
+			System.out.print("Good");
+			break;
+			
+		case 40 :
+			System.out.print("OK");
+			break;
+		
+		default :
+			System.out.print("Grades are not defined");
 		}
 	} 
 	
