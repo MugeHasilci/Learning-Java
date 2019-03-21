@@ -51,6 +51,12 @@ public class MyClass {
 		} else {
 			System.out.print("The condition is wrong");
 		}
+		
+		if(subject1 >= 60 || subject2 <= 45) {
+			System.out.print("The condition is true");
+		} else {
+			System.out.print("The condition is wrong");
+		}
 	} 
 	
 
