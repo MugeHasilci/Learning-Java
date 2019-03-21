@@ -56,7 +56,7 @@ public class MyClass {
 			System.out.print("The condition is true");
 		} else {
 			System.out.print("The condition is wrong");
-		}*/
+		}
 		
 		int score = 90;
 		switch(score)
@@ -75,8 +75,15 @@ public class MyClass {
 		
 		default :
 			System.out.print("Grades are not defined");
+		}*/
+		
+		int a = 0;
+		
+		while (a < 10)
+		{
+			System.out.println(a);
+			a++;
 		}
-	} 
-	
-
-}
+		
+	  } 
+	}
